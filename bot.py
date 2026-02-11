@@ -6,8 +6,8 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # ---------------- CONFIG ----------------
 
-TELEGRAM_BOT_TOKEN = os.environ.get("8587846366:AAH4wOAy1PZu4Kn5BhuMyEl1WAROv1N5Lzs")
-DEFAULT_COOKIE = "_fbp=fb.2.1769418438923.721603587251513545; Authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjQwNDA0IiwiZW1haWwiOiJhbnlAZGlwZXNoY2hhdWRoYXJ5LmluIiwibmFtZSI6ImRpcHUiLCJ0aW1lc3RhbXAiOjE3NzAxMDkxNzMsInRlbmFudFR5cGUiOiJ1c2VyIiwidGVuYW50TmFtZSI6InN1cGVyMTAwYWRpdHlhc2luZ2hfZGIiLCJ0ZW5hbnRJZCI6IiIsImRpc3Bvc2FibGUiOmZhbHNlfQ.2GKID033W7UYcKb18k8DQBeoIRuw8xvZwG2JycIK1c8; User-ID=40404; base_url=https%3A%2F%super100byadityasingh.akamai.net.in%2F""
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+DEFAULT_COOKIE = "_fbp=fb.2.1769418438923.721603587251513545; Authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjQwNDA0IiwiZW1haWwiOiJhbnlAZGlwZXNoY2hhdWRoYXJ5LmluIiwibmFtZSI6ImRpcHUiLCJ0aW1lc3RhbXAiOjE3NzAxMDkxNzMsInRlbmFudFR5cGUiOiJ1c2VyIiwidGVuYW50TmFtZSI6InN1cGVyMTAwYWRpdHlhc2luZ2hfZGIiLCJ0ZW5hbnRJZCI6IiIsImRpc3Bvc2FibGUiOmZhbHNlfQ.2GKID033W7UYcKb18k8DQBeoIRuw8xvZwG2JycIK1c8; User-ID=40404; base_url=https%3A%2F%super100byadityasingh.akamai.net.in%2F"
 MAX_TESTS = 5000
 DELAY = 1.5
 
